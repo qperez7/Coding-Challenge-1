@@ -30,3 +30,18 @@ accountBalance /=1.5;
 console.log("UpdatedBalance:", accountBalance); // Output: Updated Balance: 3666.67
 accountBalance %=36.67
 console.log("UpdatedBalance:", accountBalance); // Output: Updated Balance: 36.67
+
+// Task 4: Comparison Operators
+let employeeScore1 = 80
+let employeeScore2 = 65
+
+employeeScore1 > employeeScore2;
+console.log(employeeScore1 > employeeScore2); Output: true
+employeeScore1 < employeeScore2;
+console.log(employeeScore1 < employeeScore2); Output: false
+employeeScore1 >= employeeScore2;
+console.log(employeeScore1 >= employeeScore2); Output: false
+employeeScore1 <= employeeScore2;
+console.log(employeeScore1 <= employeeScore2); Output: false
+employeeScore1 === employeeScore2;
+console.log(employeeScore1 === employeeScore2); Output: false
