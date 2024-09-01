@@ -15,3 +15,18 @@ const productDetails = {
     instock: cottoncandy,lollipops,
 }
 console.log(products,productDetails);
+
+// Task 3: Assignment Operators
+let accountBalance = 2500;
+console.log("initialBalance:", accountBalance);// Output: initalBalance 2500
+
+accountBalance +=500;
+console.log("UpdatedBalance:", accountBalance); // Output: Updated Balance: 3000
+accountBalance -=250;
+console.log("UpdatedBalance:", accountBalance); // Output: Updated Balance: 2750
+accountBalance *=2;
+console.log("UpdatedBalance:", accountBalance); // Output: Updated Balance: 5500
+accountBalance /=1.5;
+console.log("UpdatedBalance:", accountBalance); // Output: Updated Balance: 3666.67
+accountBalance %=36.67
+console.log("UpdatedBalance:", accountBalance); // Output: Updated Balance: 36.67
