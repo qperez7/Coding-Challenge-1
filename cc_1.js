@@ -36,12 +36,19 @@ let employeeScore1 = 80
 let employeeScore2 = 65
 
 employeeScore1 > employeeScore2;
-console.log(employeeScore1 > employeeScore2); Output: true
+console.log(employeeScore1 > employeeScore2); // Output: true
 employeeScore1 < employeeScore2;
-console.log(employeeScore1 < employeeScore2); Output: false
+console.log(employeeScore1 < employeeScore2); // Output: false
 employeeScore1 >= employeeScore2;
-console.log(employeeScore1 >= employeeScore2); Output: false
+console.log(employeeScore1 >= employeeScore2); // Output: false
 employeeScore1 <= employeeScore2;
-console.log(employeeScore1 <= employeeScore2); Output: false
+console.log(employeeScore1 <= employeeScore2); // Output: false
 employeeScore1 === employeeScore2;
-console.log(employeeScore1 === employeeScore2); Output: false
+console.log(employeeScore1 === employeeScore2); // Output: false
+
+//Task 5: Logical Operators
+let haskeyCard = true;
+let hasPermission =true;
+console.log(haskeyCard && hasPermission); // Output: true has access
+console.log(haskeyCard || hasPermission); // Output: true has access
+console.log(!hasPermission); // Output: false no access
